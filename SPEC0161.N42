@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<N42InstrumentData xmlns="http://physics.nist.gov/Divisions/Div846/Gp4/ANSIN4242/2005/ANSIN4242" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:PGT="http://www.pgt.com/ANSIN4242/20060901" >
+  <Measurement>
+    <InstrumentInformation>
+      <InstrumentType>RadionuclideIdentifier</InstrumentType>
+      <Manufacturer>Princeton Gamma-Tech Instruments, Inc.</Manufacturer>
+      <InstrumentModel>SAM Eagle</InstrumentModel>
+      <InstrumentID>Serial 41480   </InstrumentID>
+      <ProbeType>Serial 50008, Type CeBr15x15</ProbeType>
+      <InstrumentMode>Measure</InstrumentMode>
+    </InstrumentInformation>
+    <Spectrum Type="PHA" CalibrationIDs="en qcc res" BackgroundSpectrumID="spec0157">
+      <StartTime>2023-04-12T15:25:26Z</StartTime>
+      <RealTime>PT3600.232S</RealTime>
+      <LiveTime>PT3600.000S</LiveTime>
+      <SourceType>Item</SourceType>
+      <ChannelData>
+            1    0    0    0    0    0    0    0    0    0    0    0    0    0    0    0
+            0    0    0    0    0    0    0    0    0    0  235  437  322  446  367  310
+          424  418  466  434  463  475  415  494  476  593  439  628  520  694  778  613
+          813  805  855  854  922  943  977 1004 1214 1012 1334 1075 1319 1121 1372 1323
+         1396 1381 1342 1378 1411 1303 1297 1615 1338 1338 1451 1470 1218 1456 1428 1470
+         1314 1358 1300 1088 1447 1300 1202 1380 1204 1245 1114 1273 1034 1168 1157 1140
+         1102 1056 1099  971 1070 1088 1011  916 1078  888 1024  817  949  908  858  843
+          821  809  809  771  854  786  759  824  759  800  772  707  757  728  731  643
+          629  580  560  595  501  485  584  477  499  469  503  551  490  489  419  491
+          461  390  351  380  421  367  382  352  397  382  456  355  402  406  328  306
+          298  324  267  258  291  254  269  240  253  245  231  230  197  256  253  261
+          222  218  234  233  206  239  212  228  221  189  200  241  206  200  206  183
+          200  200  196  206  202  181  180  189  176  193  190  162  204  155  204  220
+          200  203  222  213  246  213  189  183  191  169  149  151  158  113  118  152
+          169  125  135  123  145  107  116  136  122  114  130  115  104  109  119  122
+          142  136  117  140  144  115  130  131  118  132  120  115  129  118  104  121
+          105  113  121  108  129  117  111  137  170  125  126  118  148  124  131  138
+          148  145  121  124  117  123  130  118  123  122  114  107  111  131  109  105
+          147  151  129  132  122  160  140  138  130  156  163  128  134  145  146  136
+          156  149  136  141  139  129  107   90   88   87   76   66   55   59   63   56
+           60   38   41   53   52   50   58   55   55  117  142  224  353  448  490  509
+          382  263  158   85   43   34   30   26   21   34   22   24   40   21   21   15
+           28   23   14   15   14   18   16   11   14   23   22   25   29   34   18   27
+           23   16   17   19   14    8   13   12    9   10   11   11   10   10   12    8
+            9   14   10    8    8   14   10   16   14   18   19   19   10   12   17   16
+           21   18    7   10    9   13   11    8   11   14   14    6    6   10    6    8
+            7    3    4    7    1    3    6    4   16   25   32   20   10    4    1    4
+            1    1    2    1    1    1    1    2    0    2    1    1    1    2    1    3
+            1    0    2    1    1    2    1    1    2    0    1    1    1    2    4    0
+            2    2    3    0    0    2    1    3    1    2    1    2    5    2    2    1
+            2    3    0    3    0    1    2    4    0    0    0    5    0    3    1    1
+            3    0    1    2    2    1    1    1    1    3    0    1    1    1    4    1
+      </ChannelData>
+      <PGT:SpecType>8</PGT:SpecType>
+      <PGT:Bias>850</PGT:Bias>
+      <PGT:ADCTransform>1</PGT:ADCTransform>
+      <PGT:CoarseGain>1</PGT:CoarseGain>
+      <PGT:FineGain>1.7372</PGT:FineGain>
+      <PGT:GroupSize>512</PGT:GroupSize>
+      <PGT:LLD>0.80</PGT:LLD>
+      <PGT:ULD>100.00</PGT:ULD>
+      <PGT:Zero>-0.1026</PGT:Zero>
+    </Spectrum>
+    <CountDoseData Detector="gamma">
+      <SampleRealTime>PT3600.232S</SampleRealTime>
+      <SampleLiveTime>PT3600.000S</SampleLiveTime>
+      <CountRate Units="CPS">39.5392</CountRate>
+      <Counts>142341</Counts>
+      <DoseRate Units="uSv">0.0394775</DoseRate>
+    </CountDoseData>
+    <AnalysisResults>
+      <ThreatDescription>
+Probable SNM.
+Probable medical isotope.
+Probable naturally occuring isotope.
+      </ThreatDescription>
+      <NuclideAnalysis ActivityUnits="uCi">
+        <Nuclide>
+          <NuclideName>K-40</NuclideName>
+          <NuclideType>NORM</NuclideType>
+          <NuclideIDConfidenceIndication>0.666181</NuclideIDConfidenceIndication>
+          <NuclideIDConfidenceDescription>Medium</NuclideIDConfidenceDescription>
+          <PGT:DoseRate Units="uSv">0.00395107</PGT:DoseRate>
+          <PGT:PkBgRatio>23.908</PGT:PkBgRatio>
+        </Nuclide>
+        <Nuclide>
+          <NuclideName>Tl-201</NuclideName>
+          <NuclideType>Medical</NuclideType>
+          <NuclideIDConfidenceIndication>0.827674</NuclideIDConfidenceIndication>
+          <NuclideIDConfidenceDescription>High</NuclideIDConfidenceDescription>
+          <PGT:DoseRate Units="uSv">6.1542e-05</PGT:DoseRate>
+          <PGT:PkBgRatio>13.2244</PGT:PkBgRatio>
+        </Nuclide>
+        <Nuclide>
+          <NuclideName>U-233</NuclideName>
+          <NuclideType>SNM</NuclideType>
+          <NuclideIDConfidenceIndication>0.867546</NuclideIDConfidenceIndication>
+          <NuclideIDConfidenceDescription>High</NuclideIDConfidenceDescription>
+          <PGT:DoseRate Units="uSv">0.00105893</PGT:DoseRate>
+          <PGT:PkBgRatio>14.3793</PGT:PkBgRatio>
+        </Nuclide>
+        <Nuclide>
+          <NuclideName>U-238</NuclideName>
+          <NuclideType>NORM</NuclideType>
+          <NuclideIDConfidenceIndication>0.602579</NuclideIDConfidenceIndication>
+          <NuclideIDConfidenceDescription>Medium</NuclideIDConfidenceDescription>
+          <PGT:DoseRate Units="uSv">0.000864227</PGT:DoseRate>
+          <PGT:PkBgRatio>14.8727</PGT:PkBgRatio>
+        </Nuclide>
+        <Nuclide>
+          <NuclideName>Pu-239</NuclideName>
+          <NuclideType>SNM</NuclideType>
+          <NuclideIDConfidenceIndication>0.66609</NuclideIDConfidenceIndication>
+          <NuclideIDConfidenceDescription>Medium</NuclideIDConfidenceDescription>
+          <PGT:DoseRate Units="uSv">0.000297736</PGT:DoseRate>
+          <PGT:PkBgRatio>16.098</PGT:PkBgRatio>
+        </Nuclide>
+      </NuclideAnalysis>
+    </AnalysisResults>
+  </Measurement>
+  <Calibration Type="Energy" ID="en" EnergyUnits="keV">
+    <Remark>FSE=3072 GrpSz=512</Remark>
+    <CalibrationCreationDate>2023-03-16T01:29:02Z</CalibrationCreationDate>
+    <Equation Model="Polynomial">
+      <Coefficients>16.2782 -0.283021 0.0228598 -6.06182e-05 9.86171e-08 </Coefficients>
+    </Equation>
+    <ArrayXY X="Channels" Y="keV">
+      <PointXY><X>0 0</X><Y>2.91515 0</Y></PointXY>
+      <PointXY><X>16 0</X><Y>17.8055 0</Y></PointXY>
+      <PointXY><X>32 0</X><Y>34.8523 0</Y></PointXY>
+      <PointXY><X>48 0</X><Y>57.4571 0</Y></PointXY>
+      <PointXY><X>64 0</X><Y>85.386 0</Y></PointXY>
+      <PointXY><X>80 0</X><Y>118.97 0</Y></PointXY>
+      <PointXY><X>96 0</X><Y>157.694 0</Y></PointXY>
+      <PointXY><X>112 0</X><Y>201.805 0</Y></PointXY>
+      <PointXY><X>128 0</X><Y>251.192 0</Y></PointXY>
+      <PointXY><X>144 0</X><Y>305.956 0</Y></PointXY>
+      <PointXY><X>160 0</X><Y>366.141 0</Y></PointXY>
+      <PointXY><X>176 0</X><Y>431.649 0</Y></PointXY>
+      <PointXY><X>192 0</X><Y>502.722 0</Y></PointXY>
+      <PointXY><X>208 0</X><Y>579.763 0</Y></PointXY>
+      <PointXY><X>224 0</X><Y>662.891 0</Y></PointXY>
+      <PointXY><X>240 0</X><Y>752.411 0</Y></PointXY>
+      <PointXY><X>256 0</X><Y>849.131 0</Y></PointXY>
+      <PointXY><X>272 0</X><Y>953.514 0</Y></PointXY>
+      <PointXY><X>288 0</X><Y>1066.36 0</Y></PointXY>
+      <PointXY><X>304 0</X><Y>1188.65 0</Y></PointXY>
+      <PointXY><X>320 0</X><Y>1321.65 0</Y></PointXY>
+      <PointXY><X>336 0</X><Y>1466.74 0</Y></PointXY>
+      <PointXY><X>352 0</X><Y>1625.33 0</Y></PointXY>
+      <PointXY><X>368 0</X><Y>1799.51 0</Y></PointXY>
+      <PointXY><X>384 0</X><Y>1991.32 0</Y></PointXY>
+      <PointXY><X>400 0</X><Y>2203.37 0</Y></PointXY>
+      <PointXY><X>416 0</X><Y>2438.33 0</Y></PointXY>
+      <PointXY><X>432 0</X><Y>2699.52 0</Y></PointXY>
+      <PointXY><X>448 0</X><Y>2990.18 0</Y></PointXY>
+      <PointXY><X>464 0</X><Y>3314.83 0</Y></PointXY>
+      <PointXY><X>480 0</X><Y>3677.35 0</Y></PointXY>
+      <PointXY><X>496 0</X><Y>4083.07 0</Y></PointXY>
+      <PointXY><X>512 0</X><Y>4507.38 0</Y></PointXY>
+    </ArrayXY>
+  </Calibration>
+  <Calibration Type="Other" ID="qcc">
+    <Remark>FSE=3072 GrpSz=512</Remark>
+    <CalibrationCreationDate>2023-03-16T01:29:02Z</CalibrationCreationDate>
+    <Equation Model="Polynomial" Form="E = Term0 + Term1*f(Ch) + Term2*f(Ch)^2">
+      <Coefficients>-0.621318 1.01979 -7.77865e-05 7.27568e-08 </Coefficients>
+    </Equation>
+  </Calibration>
+  <Calibration Type="FWHM" ID="res" FWHMUnits="Channels">
+    <Equation Model="Polynomial" Form="FWHM = Term0">
+      <Coefficients>5.2381</Coefficients>
+    </Equation>
+  </Calibration>
+</N42InstrumentData>
